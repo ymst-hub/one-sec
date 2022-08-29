@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>時間を再定義しよう</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+
+    <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/b8a7fea4d4.js" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+        <script type="text/javascript" src="js/timer.js"></script>
+    </head>
+
+	<body>
+        <section class="main">
+                <div class="wrapper">
+        			<h2 class="title">１０秒<br>数えてください</h2>
+                    <input class="timer-btn" type="button" value="数え始める" onclick="count_start()"> 
+                    <input class="timer-btn" type="button" value="数え終わる" onclick="count_stop()"> 
+                     <p>
+                        あなたの１秒は<span id="timer_result_sec"></span>秒<br>
+                        あなたの１日は<span id="timer_result_hour"></span>時間
+                    </p>
+                </div>
+                
+    		</section>
+	</body>
+</html>
