@@ -21,11 +21,11 @@
         <section class="main">
                 <div class="wrapper">
         			<h2 class="title">１０秒<br>数えてください</h2>
-                    <input class="timer-btn" type="button" value="数え始める" onclick="count_start()"> 
-                    <input class="timer-btn" type="button" value="数え終わる" onclick="count_stop()"> 
+                    <input id="start" class="timer-btn" type="button" value="数え始める" onclick="count_start()"> 
+                    <input id="end" display="block" class="timer-btn" type="button" value="数え終わる" onclick="count_stop()"> 
                      <p>
-                        あなたの１秒は<span id="timer_result_sec"></span>秒<br>
-                        あなたの１日は<span id="timer_result_hour"></span>時間
+                        あなたの１秒は約<span id="timer_result_sec">○</span>秒<br>
+                        あなたの１日は約<span id="timer_result_hour">○</span>時間
                     </p>
                 </div>
                 

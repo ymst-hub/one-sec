@@ -72,6 +72,11 @@ MAIN
 .main-btn:hover {
     background: rgb(40, 67, 45);
 }
+.main span {
+    color: rgb(88, 163, 104);
+    font-size: 2rem;
+	font-family: 'Sawarabi Mincho', serif;
+}
 
 /*
 Timer
@@ -87,47 +92,6 @@ Timer
 }
 .timer-btn:hover {
     background: rgb(40, 67, 45);
-}
-
-
-
-/*
-CONTACT
-================================================ */
-.contact {
-    background-image: url(../images/cafe.jpg);
-    text-align: center;
-    padding-top: 8vh;
-}
-.btn {
-    background: #555;
-    font-size: 1.5rem;
-    color: #fff;
-    padding: 1rem 3.5rem;
-    border-radius: 6px;
-    display: inline-block;
-    margin: 2rem 0 2.25rem;
-}
-.btn:hover {
-    background: #777;
-}
-.contact-sns {
-    display: flex;
-    justify-content: center;
-}
-.contact-sns a {
-    background: #fff;
-    width: 3.75rem;
-    height: 3.75rem;
-    display: inline-block;
-    margin: 0 .5rem;
-    border-radius: 50%;
-    font-size: 2rem;
-    padding: .75rem 0 0 .125rem;
-    color: #555;
-}
-.contact-sns a:hover {
-    background: rgba(255,255,255,.5);
 }
 
 /*
